@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inpodolist || JF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inpodo">
+            <h2>Kindly input your name to register!</h2>
+            <div class="row">
+                <input type="text" name="fName" id="fName" placeholder="Input your first name">
+                <input type="text" name="lName" id="lName" placeholder="Input your last name">
+                <button onclick="addDetails()">Register</button>
+            </div>
+            <ul id="list">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+            <div class="copyright">
+                <p>
+                    Designed and developed by JFstudios
+                </p>
+                <span>&copy;</span> 2023.
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <h2>Sorry!</h2>
+        <p>You need to input your first name and last name to successfully register📌</p>
+        <button type="button" onclick="closePopup()">Ok</button>
+    </div>
+    <div id="blur"></div>
+
+
+    <script src="inpodo.js"></script>
+</body>
+</html>
